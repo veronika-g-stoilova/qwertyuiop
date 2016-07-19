@@ -21,7 +21,7 @@ class qwertiopUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-        sleep(1)
+        sleep(2)
     }
     
     override func tearDown() {
@@ -54,7 +54,6 @@ class qwertiopUITests: XCTestCase {
         let resultLabel = XCUIApplication().otherElements.containingType(.TextField, identifier:"0").childrenMatchingType(.TextField).elementBoundByIndex(2)
 
         let realResult = Int(resultLabel.value as! String)
-       
         XCTAssert(expectedResult == realResult)
     }
     
