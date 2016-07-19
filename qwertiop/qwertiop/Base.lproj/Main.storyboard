@@ -37,10 +37,16 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPT-em-f24">
                                 <rect key="frame" x="60" y="251" width="97" height="28"/>
                                 <color key="backgroundColor" red="1" green="0.88509533389884965" blue="0.91998336734834441" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Result" label="Result"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4G-Pj-SDp">
+                                <rect key="frame" x="196" y="249" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFs-vm-rzK">
                                 <rect key="frame" x="60" y="49" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -57,6 +63,7 @@
                     <connections>
                         <outlet property="firstTextField" destination="KFs-vm-rzK" id="4M3-st-f6F"/>
                         <outlet property="resultLabel" destination="vPT-em-f24" id="okC-rY-9Fw"/>
+                        <outlet property="resultTextField" destination="o4G-Pj-SDp" id="BTx-pZ-N5G"/>
                         <outlet property="secondTextField" destination="aAJ-cF-gdb" id="LbF-VX-42f"/>
                     </connections>
                 </viewController>

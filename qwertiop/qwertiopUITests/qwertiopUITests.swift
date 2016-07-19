@@ -34,4 +34,28 @@ class qwertiopUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testSum() {
+        
+        let app = XCUIApplication()
+        let elementsQuery = app.otherElements.containingType(.TextField, identifier:"0")
+        
+        
+        let field1 = elementsQuery.childrenMatchingType(.TextField).matchingIdentifier("0").elementBoundByIndex(0)
+        field1.tap()
+        field1.typeText("9")
+        
+        let field2 = elementsQuery.childrenMatchingType(.TextField).matchingIdentifier("0").elementBoundByIndex(1)
+        field2.tap()
+        field2.typeText("5")
+        
+        app.buttons["SUM"].tap()
+        let expectedResult = 14
+    
+        let resultLabel = XCUIApplication().otherElements.containingType(.TextField, identifier:"0").childrenMatchingType(.TextField).elementBoundByIndex(2)
+
+        let realResult = Int(resultLabel.value as! String)
+       
+        XCTAssert(expectedResult == realResult)
+    }
+    
 }

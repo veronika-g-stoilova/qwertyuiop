@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
     
+    @IBOutlet weak var resultTextField: UITextField!
 
     @IBAction func didEndEditingFirstField(sender: AnyObject) {
         let field = sender as! UITextField
@@ -31,12 +32,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func textDidChangeFirstField(sender: UITextField) {
+        resultTextField.text = ""
         print("Did change first field \(sender.text)")
         
     }
     
     
     @IBAction func textDidChangeSecondField(sender: UITextField) {
+        resultTextField.text = ""
         print("Did change second field \(sender.text)")
         
     }
@@ -48,6 +51,7 @@ class ViewController: UIViewController {
         let secondNum = secondTextField.text == "" ? 0 : Int(secondTextField.text!)
         let sum = firstNum! + secondNum!
         resultLabel.text = "\(sum)"
+        resultTextField.text = "\(sum)"
         print("Did tap sum")
     }
 
