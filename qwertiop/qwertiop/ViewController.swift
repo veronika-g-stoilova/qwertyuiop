@@ -9,6 +9,47 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var firstTextField: UITextField!
+    @IBOutlet weak var secondTextField: UITextField!
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    
+
+    @IBAction func didEndEditingFirstField(sender: AnyObject) {
+        let field = sender as! UITextField
+        print("End editing first field \(field.text)")
+        
+    }
+    
+    
+    @IBAction func didEndEditingSecondField(sender: AnyObject) {
+        let field = sender as! UITextField
+        print("End editing second field \(field.text)")
+        
+        
+    }
+    
+    @IBAction func textDidChangeFirstField(sender: UITextField) {
+        print("Did change first field \(sender.text)")
+        
+    }
+    
+    
+    @IBAction func textDidChangeSecondField(sender: UITextField) {
+        print("Did change second field \(sender.text)")
+        
+    }
+    
+    @IBAction func sum(sender: AnyObject) {
+        firstTextField.resignFirstResponder()
+        secondTextField.resignFirstResponder()
+        let firstNum = firstTextField.text == "" ? 0 : Int(firstTextField.text!)
+        let secondNum = secondTextField.text == "" ? 0 : Int(secondTextField.text!)
+        let sum = firstNum! + secondNum!
+        resultLabel.text = "\(sum)"
+        print("Did tap sum")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +62,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
