@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6549E91D3E0BBC001828ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6549E81D3E0BBC001828ED /* AppDelegate.swift */; };
+		3F6549EB1D3E0BBC001828ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6549EA1D3E0BBC001828ED /* ViewController.swift */; };
+		3F6549EE1D3E0BBC001828ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6549EC1D3E0BBC001828ED /* Main.storyboard */; };
+		3F6549F01D3E0BBC001828ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6549EF1D3E0BBC001828ED /* Assets.xcassets */; };
+		3F6549F31D3E0BBC001828ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6549F11D3E0BBC001828ED /* LaunchScreen.storyboard */; };
+		3F6549FE1D3E0BBD001828ED /* qwertiopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6549FD1D3E0BBD001828ED /* qwertiopTests.swift */; };
+		3F654A091D3E0BBD001828ED /* qwertiopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F654A081D3E0BBD001828ED /* qwertiopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6549FA1D3E0BBD001828ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6549DD1D3E0BBC001828ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6549E41D3E0BBC001828ED;
+			remoteInfo = qwertiop;
+		};
+		3F654A051D3E0BBD001828ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6549DD1D3E0BBC001828ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6549E41D3E0BBC001828ED;
+			remoteInfo = qwertiop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6549E51D3E0BBC001828ED /* qwertiop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwertiop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6549E81D3E0BBC001828ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6549EA1D3E0BBC001828ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6549ED1D3E0BBC001828ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6549EF1D3E0BBC001828ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6549F21D3E0BBC001828ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6549F41D3E0BBC001828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6549F91D3E0BBD001828ED /* qwertiopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwertiopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6549FD1D3E0BBD001828ED /* qwertiopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwertiopTests.swift; sourceTree = "<group>"; };
+		3F6549FF1D3E0BBD001828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F654A041D3E0BBD001828ED /* qwertiopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwertiopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F654A081D3E0BBD001828ED /* qwertiopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwertiopUITests.swift; sourceTree = "<group>"; };
+		3F654A0A1D3E0BBD001828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6549E21D3E0BBC001828ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6549F61D3E0BBD001828ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F654A011D3E0BBD001828ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6549DC1D3E0BBC001828ED = {
+			isa = PBXGroup;
+			children = (
+				3F6549E71D3E0BBC001828ED /* qwertiop */,
+				3F6549FC1D3E0BBD001828ED /* qwertiopTests */,
+				3F654A071D3E0BBD001828ED /* qwertiopUITests */,
+				3F6549E61D3E0BBC001828ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6549E61D3E0BBC001828ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6549E51D3E0BBC001828ED /* qwertiop.app */,
+				3F6549F91D3E0BBD001828ED /* qwertiopTests.xctest */,
+				3F654A041D3E0BBD001828ED /* qwertiopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6549E71D3E0BBC001828ED /* qwertiop */ = {
+			isa = PBXGroup;
+			children = (
+				3F6549E81D3E0BBC001828ED /* AppDelegate.swift */,
+				3F6549EA1D3E0BBC001828ED /* ViewController.swift */,
+				3F6549EC1D3E0BBC001828ED /* Main.storyboard */,
+				3F6549EF1D3E0BBC001828ED /* Assets.xcassets */,
+				3F6549F11D3E0BBC001828ED /* LaunchScreen.storyboard */,
+				3F6549F41D3E0BBC001828ED /* Info.plist */,
+			);
+			path = qwertiop;
+			sourceTree = "<group>";
+		};
+		3F6549FC1D3E0BBD001828ED /* qwertiopTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6549FD1D3E0BBD001828ED /* qwertiopTests.swift */,
+				3F6549FF1D3E0BBD001828ED /* Info.plist */,
+			);
+			path = qwertiopTests;
+			sourceTree = "<group>";
+		};
+		3F654A071D3E0BBD001828ED /* qwertiopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F654A081D3E0BBD001828ED /* qwertiopUITests.swift */,
+				3F654A0A1D3E0BBD001828ED /* Info.plist */,
+			);
+			path = qwertiopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6549E41D3E0BBC001828ED /* qwertiop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F654A0D1D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiop" */;
+			buildPhases = (
+				3F6549E11D3E0BBC001828ED /* Sources */,
+				3F6549E21D3E0BBC001828ED /* Frameworks */,
+				3F6549E31D3E0BBC001828ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qwertiop;
+			productName = qwertiop;
+			productReference = 3F6549E51D3E0BBC001828ED /* qwertiop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6549F81D3E0BBD001828ED /* qwertiopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F654A101D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiopTests" */;
+			buildPhases = (
+				3F6549F51D3E0BBD001828ED /* Sources */,
+				3F6549F61D3E0BBD001828ED /* Frameworks */,
+				3F6549F71D3E0BBD001828ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6549FB1D3E0BBD001828ED /* PBXTargetDependency */,
+			);
+			name = qwertiopTests;
+			productName = qwertiopTests;
+			productReference = 3F6549F91D3E0BBD001828ED /* qwertiopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F654A031D3E0BBD001828ED /* qwertiopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F654A131D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiopUITests" */;
+			buildPhases = (
+				3F654A001D3E0BBD001828ED /* Sources */,
+				3F654A011D3E0BBD001828ED /* Frameworks */,
+				3F654A021D3E0BBD001828ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F654A061D3E0BBD001828ED /* PBXTargetDependency */,
+			);
+			name = qwertiopUITests;
+			productName = qwertiopUITests;
+			productReference = 3F654A041D3E0BBD001828ED /* qwertiopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6549DD1D3E0BBC001828ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Veronika Stoilova";
+				TargetAttributes = {
+					3F6549E41D3E0BBC001828ED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3F6549F81D3E0BBD001828ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3F6549E41D3E0BBC001828ED;
+					};
+					3F654A031D3E0BBD001828ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3F6549E41D3E0BBC001828ED;
+					};
+				};
+			};
+			buildConfigurationList = 3F6549E01D3E0BBC001828ED /* Build configuration list for PBXProject "qwertiop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6549DC1D3E0BBC001828ED;
+			productRefGroup = 3F6549E61D3E0BBC001828ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6549E41D3E0BBC001828ED /* qwertiop */,
+				3F6549F81D3E0BBD001828ED /* qwertiopTests */,
+				3F654A031D3E0BBD001828ED /* qwertiopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6549E31D3E0BBC001828ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6549F31D3E0BBC001828ED /* LaunchScreen.storyboard in Resources */,
+				3F6549F01D3E0BBC001828ED /* Assets.xcassets in Resources */,
+				3F6549EE1D3E0BBC001828ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6549F71D3E0BBD001828ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F654A021D3E0BBD001828ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6549E11D3E0BBC001828ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6549EB1D3E0BBC001828ED /* ViewController.swift in Sources */,
+				3F6549E91D3E0BBC001828ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6549F51D3E0BBD001828ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6549FE1D3E0BBD001828ED /* qwertiopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F654A001D3E0BBD001828ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F654A091D3E0BBD001828ED /* qwertiopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6549FB1D3E0BBD001828ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6549E41D3E0BBC001828ED /* qwertiop */;
+			targetProxy = 3F6549FA1D3E0BBD001828ED /* PBXContainerItemProxy */;
+		};
+		3F654A061D3E0BBD001828ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6549E41D3E0BBC001828ED /* qwertiop */;
+			targetProxy = 3F654A051D3E0BBD001828ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6549EC1D3E0BBC001828ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6549ED1D3E0BBC001828ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6549F11D3E0BBC001828ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6549F21D3E0BBC001828ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F654A0B1D3E0BBD001828ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F654A0C1D3E0BBD001828ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F654A0E1D3E0BBD001828ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qwertiop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F654A0F1D3E0BBD001828ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = qwertiop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F654A111D3E0BBD001828ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qwertiopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qwertiop.app/qwertiop";
+			};
+			name = Debug;
+		};
+		3F654A121D3E0BBD001828ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qwertiopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qwertiop.app/qwertiop";
+			};
+			name = Release;
+		};
+		3F654A141D3E0BBD001828ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qwertiopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qwertiop;
+			};
+			name = Debug;
+		};
+		3F654A151D3E0BBD001828ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qwertiopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msl.qwertiopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qwertiop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6549E01D3E0BBC001828ED /* Build configuration list for PBXProject "qwertiop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F654A0B1D3E0BBD001828ED /* Debug */,
+				3F654A0C1D3E0BBD001828ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F654A0D1D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F654A0E1D3E0BBD001828ED /* Debug */,
+				3F654A0F1D3E0BBD001828ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F654A101D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F654A111D3E0BBD001828ED /* Debug */,
+				3F654A121D3E0BBD001828ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F654A131D3E0BBD001828ED /* Build configuration list for PBXNativeTarget "qwertiopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F654A141D3E0BBD001828ED /* Debug */,
+				3F654A151D3E0BBD001828ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6549DD1D3E0BBC001828ED /* Project object */;
+}
